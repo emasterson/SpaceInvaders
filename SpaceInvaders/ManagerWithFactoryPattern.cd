@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Manager With Factory Pattern">
+    <Position X="4.5" Y="2" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="SpaceInvaders.Manager.Stats" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAIAQACAAAACAAgAQAEAQAAAAEAIAAgQAIAAAAIA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAABAAAAABAAEgACgAAAAAKAAA=</HashCode>
+      <FileName>SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

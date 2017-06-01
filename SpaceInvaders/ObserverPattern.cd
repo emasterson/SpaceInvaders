@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Observer Pattern For Removing Missile">
+    <Position X="5.104" Y="4.856" Height="0.966" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.ColPair">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ColPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ColPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAABABAAgAAEgSAAAAEAAAgCAAEAAABAAA=</HashCode>
+      <FileName>ColPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="treeA" />
+      <Field Name="treeB" />
+      <Field Name="subject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.MissileRemoveObserver">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>MissileRemoveObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMissile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSubject">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAIACAAAIEAAAAAAAAAAAEgAAAAAAAA=</HashCode>
+      <FileName>CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCollisionObserver" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAACAAAAAAAAAAgAQEAEAAAAEAAAAACBmAgBBAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObserver">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

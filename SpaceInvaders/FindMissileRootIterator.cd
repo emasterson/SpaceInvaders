@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Iterator With PCSTree&#xD;&#xA;">
+    <Position X="1.75" Y="1.308" Height="0.718" Width="1.7" />
+  </Comment>
+  <Class Name="SpaceInvaders.PCSTreeIterator">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAgAAIAgABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PCSTreeIterator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="root" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Iterator" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjManager">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAIgBAAAAIBIAEAAAgAAAAAIAAA=</HashCode>
+      <FileName>GameObjManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="SpaceInvaders.Manager.Stats" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Manager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAIAQACAAAACAAgAQAEAQAAAAEAIAAgQAIAAAAIA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAACAAAAAAAAAAgAQEAEAAAAEAAAAACBmAgBBAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColVisitor" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIIAAACCAAAABAAAHAggQAAIKkAAAgAICCAAkAIABCA=</HashCode>
+      <FileName>ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.PCSNode" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAACAEAAAAAAAAAIAAAAEABAAQAA=</HashCode>
+      <FileName>PCSNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerLink" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABEAAIAAAA=</HashCode>
+      <FileName>ManagerLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAAAAEAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.PCSTree">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SpaceInvaders.PCSTree.PCSRootNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PCSTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="SpaceInvaders.PCSTree.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PCSTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAkCAAAAAIAAAAAAgBBhQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PCSTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileRoot" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MissileRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileCategory" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>MissileCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
